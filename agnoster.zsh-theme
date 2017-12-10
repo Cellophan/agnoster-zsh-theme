@@ -105,7 +105,8 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue $PRIMARY_FG ' %~ '
+  #prompt_segment blue $PRIMARY_FG ' %~ '
+	prompt_segment blue $PRIMARY_FG ' %(4~|%-1~/…/%2~|%3~) '
 }
 
 # Status:
